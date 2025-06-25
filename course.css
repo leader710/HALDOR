@@ -1,0 +1,315 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.left h1{
+    margin-top: 18px;
+    margin-left: 80px;
+}
+.left p{
+    margin-left: 80px;
+    position: relative;
+    bottom: 0px;
+}
+span{
+    color: green;
+}
+
+.left I{
+    display: none;
+}
+
+ul{
+    display: flex;
+    gap: 25px
+    ;
+    list-style: none;
+    margin-top: 30px;
+    font-size: 23px;
+    
+}
+
+ul li a{
+    color: rgb(35, 34, 34);
+    text-decoration: none;
+}
+
+.right button{
+    background-color: green;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    position: relative;
+    right: 50px;
+}
+
+
+.right i{
+    font-size: 25px;
+    margin-right: 20px;
+    position: relative;
+    right: 50px;
+}
+
+.under:hover{
+    text-decoration: underline;
+    text-underline-offset: 2px
+    ;
+    color: green;
+}
+
+/* main */
+
+.mina-1{
+    width: 70%;
+    height: 400px;
+    background-color: white;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    margin-left: 220px;
+    margin-top: 100px;
+    display: flex;
+    /* justify-content: ; */
+}
+
+
+.left-main p{
+    width: 500px;
+    margin-top: 150px;
+    margin-left: 70px;
+}
+
+.left-main h1{
+    /* margin-top: 150px; */
+    margin-left: 70px;
+    position: relative;
+    top: 120px;
+}
+
+.right-2{
+    margin-left: 100px;
+    position: relative;
+    top: 160px;
+    font-size: 25px;
+}
+
+
+.Course {
+    background-color: rgb(212, 231, 238);
+    width: 900px;
+    height: 150px;
+    margin-top: 150px;
+    margin-bottom: 40px;
+    border-radius: 40px;
+    margin-left: 300px;
+
+}
+
+.Course h1 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+/* b0x-couse */
+
+
+
+.parent-b0x-course {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.b0x-course {
+    background-color: white;
+    width: 400px;
+    height: 420px;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.2);
+    margin-top: 80px;
+    border-radius: 8px;
+}
+
+.b0x-course h2 {
+    margin-top: 10px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.b0x-course p {
+    margin-top: 20px;
+    font-size: 20px;
+    color: grey;
+    width: 320px;
+    margin-left: 40px;
+
+}
+
+.b0x-course img {
+    width: 400px;
+    height: 230px;
+    /* border-radius: 8px; */
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+.b0x-course img:hover {
+    transform: translatey(-10px);
+}
+
+
+/* * resourse */ */
+
+.parent-resource{
+    display: flex;
+    
+
+}
+
+.Resource {
+
+    width: 100%;
+    height: 400px;
+    /* background-color: rgb(53, 52, 52); */
+    margin-top: 70px;
+    background-color: rgb(222, 220, 220);
+}
+
+
+.Resource h1 {
+    margin-left: 50px;
+    position: relative;
+    top: 50px;
+    color: white;
+
+}
+
+.list-1 {
+    list-style: none;
+    color: rgb(77, 76, 76);
+    line-height: 2;
+    margin-top: 80px;
+    margin-left: 60px;
+    font-size: 20px;
+
+}
+
+.list-1 a {
+    text-decoration: none;
+    color: rgb(77, 76, 76);
+}
+
+
+.list-2:hover {
+    background-color: white;
+    width: 200px;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+/* .Resource hr{
+    position: relative;
+    top: 30px   ;
+    width: 200px;
+    left: 35px;
+} */
+
+
+
+/* footer */
+
+.footer {
+    background-color: rgb(70, 69, 69);
+    width: 100%;
+    height: 250px;
+    display: flex;
+    /* margin-top: 20p/x; */
+    
+
+}
+
+.footer-left {
+    color: white;
+    margin-top: 45px;
+    margin-left: 100px;
+}
+
+
+.part2-p {
+    font-size: 13px;
+}
+
+
+.part1-p {
+    width: 800px;
+    margin-top: 20px;
+
+}
+
+.footer-link {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.footer-link a {
+    text-decoration: none;
+    color: rgb(101, 100, 100);
+    font-size: 20px;
+}
+
+.footer-link a:hover {
+    color: green;
+
+}
+
+
+/* footer midig */
+
+.footer-right {
+    color: white;
+    font-size: 16px;
+    margin-left: 180px;
+    margin-top: 70px;
+
+}
+
+.footer-right i {
+    margin-top: 20px;
+    margin-right: 10px;
+    background-color: rgb(95, 94, 94);
+    padding: 9px;
+    border-radius: 100%;
+    color: rgb(53, 53, 53);
+}
+
+.footer-right i:hover {
+    background-color: green;
+    padding: 9px;
+    border-radius: 100%;
+}
+  
+
+
+
+
+  
